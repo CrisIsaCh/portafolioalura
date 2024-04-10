@@ -83,18 +83,34 @@ section.about{
     background-color: var(--cor-de-sobremi) ;
 
 }
+/*Sección skills*/
+
+section.skills{
+    padding: 0 25px; 
+}
+.skills__box{
+    background-color: var(--cor-de-footer);
+}
 
 /*Sección Hobbies*/
 
 section.hobbies{
+    padding: 0 25px;
     
 }
 
+.hobbies__box{
+    background-color: var(--cor-de-footer);
+}
 /* Experiencia Académica*/
 
 section.academic{
     background-color: var(--cor-de-sobremi) ;
+    padding: 0 35px;
 
+}
+.academic__courses__item__img{
+    background-color: #ffff ;
 }
 
 /* experiencia*/
