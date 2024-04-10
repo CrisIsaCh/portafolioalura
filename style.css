@@ -76,6 +76,10 @@ section.title{
     padding: 0 25px;
 
 }
+.title__profile{
+    border-radius: 50%;
+    width: 155px;
+}
 
 /*Sección About*/
 
