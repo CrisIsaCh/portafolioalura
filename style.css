@@ -242,19 +242,111 @@ section.academic {
 
 /* experiencia*/
 
-section.experience {}
+section.experience {
+    padding: 35px 35px;
+}
+.experience__section__title{
+    text-align: center;
+    margin-top: 0;
+}
+.experiencie__box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-bottom:55px ;
+}
+.experience__img{
+    width: 300px;
+    flex-grow: 1;
+    
+}
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+   
+    gap: 12px;
+}
+.experience__title,.experience__text{
+    margin: 0;
+}
+.experiencia__botao--repo{
+    padding: 15px;
+    color: #2a7ae4;
+    font-weight: bold;
+    border: 2px #2a7ae4 solid;
+    background-color: var(--cor-de-fundo);
+    margin-right: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.experience__botao--demo{
+    padding: 15px;
+    color: #ffff;
+    font-size: 17px;
+    background-color: #2a7ae4;
+    border: 2px  #2a7ae4 solid;
+}
 
 /*Contacto*/
 
 section.formcontato {
     background-color: var(--cor-de-sobremi);
+    padding: 35px 35px;
 
 }
+.formcontato__contacto{
+    display: flex;
+}
+.formcontato--esquerda{
+    display: none;
+}
+.formcontato__subtext{
+    margin: 0 ;
 
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+}
+.formcontato__input{
+    padding: 15px;
+    border: 1px #ffffff solid;
+    border-bottom: 1px #bfb4b4 solid;
+    
+}
+input::placeholder{
+    color: #2a7ae4;
+}
+.formcontato__textarea{
+    padding: 15px;
+    border: 1px #ffffff solid;
+    border-bottom: 1px #bfb4b4 solid;
+    resize: none;
+}
+textarea::placeholder{
+    color: #2a7ae4;
+}
+.formcontato__botao{
+    padding: 15px;
+    color: #ffff;
+    font-size: 17px;
+    background-color: #2a7ae4;
+    border: 2px  #2a7ae4 solid;
+    width: 150px;
+    white-space: nowrap;
+}
 /*footeer*/
 
 section.footer {
     background-color: var(--cor-de-footer);
+}
+.footer__rodape{
+    text-align: center;
+   padding: 15px;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
