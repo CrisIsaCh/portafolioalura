@@ -135,6 +135,9 @@ section.skills {
     margin-top: 10px;
 
 }
+#cimg{
+    width: 32px;
+}
 
 .skills__box ul {
     padding: 0;
@@ -460,6 +463,12 @@ Utiliza las referencias de los breakpoints @media abajo */
 
     .title__profile {
         width: 230px;
+    }
+    .title__network{
+        width:  50%;
+    }
+    .title__network__item{
+        font-size: 18px;
     }
 
     /*Sección sobre mi*/
