@@ -327,6 +327,7 @@ section.formcontato {
 }
 
 .formcontato__text {
+    width: 250px;
     flex-grow: 1;
 }
 
@@ -342,9 +343,17 @@ section.formcontato {
     padding: 15px;
     border: 1px #ffffff solid;
     border-bottom: 1px #bfb4b4 solid;
+    
+    outline: none;
 
 
 }
+.formcontato__input:focus,
+.formcontato__textarea:focus {
+    border-bottom: #2A7AE4 2px solid;
+    caret-color: #2A7AE4;
+}
+
 
 input::placeholder {
     color: #2a7ae4;
@@ -355,6 +364,7 @@ input::placeholder {
     border: 1px #ffffff solid;
     border-bottom: 1px #bfb4b4 solid;
     resize: none;
+    outline: none;
 }
 
 textarea::placeholder {
