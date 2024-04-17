@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,7 +75,7 @@
         <!-- Sección de Skills -->
         <section class="skills" id="skills">
             <h3 class="skills__title">Skills</h3>
-            <div class="skills__line">
+            <div class="skills__line" data-aos="fade-right">
                 <div class="skills__box">
                     <ul>
                         <li class="skills__img"><img src="assets\htlm.png"></li>
@@ -128,7 +129,7 @@
         <!-- Sección de Hobbies -->
         <section class="hobbies" id="hobbies">
             <h3 class="hobbies__title">Hobbies</h3>
-            <div class="hobbies__line">
+            <div class="hobbies__line" data-aos="fade-left" data-aos-duration="4000">
                 <div class="hobbies__box">
                     <ul>
                         <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
@@ -176,7 +177,7 @@
         <!-- Sección de Formación académica -->
         <section class="academic" id="formacion">
             <h2 class="academic__title">Formación académica</h2>
-            <div class="academic__courses">
+            <div class="academic__courses" data-aos="slide-up">
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
                         <!-- Pon el logotipo de la institución de formación -->
@@ -223,8 +224,8 @@
             <h2 class="experience__section__title">Experiencia Profesional</h2>
             <div class="experiencie__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                <img class="experience__img" src="assets/amapola.jpg">
-                <div class="experience__info">
+                <img class="experience__img"  src="assets/amapola.jpg" data-aos="fade-right">
+                <div class="experience__info" data-aos="fade-left">
                     <h2 class="experience__title">Eccomerce Amapola Store</h2>
                     <h3 class="experience__text">Javascript,css,phyton,flask,mysql </h3>
                     <div class="experience__description">
@@ -245,8 +246,8 @@
 
             <div class="experiencie__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                <img class="experience__img" src="assets/juegosecreto.png">
-                <div class="experience__info">
+                <img class="experience__img" src="assets/juegosecreto.png" data-aos="fade-left">
+                <div class="experience__info" data-aos="fade-right">
                     <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
                     <h3 class="experience__text">Alura Oracle </h3>
                     <div class="experience__description">
@@ -267,8 +268,8 @@
 
             <div class="experiencie__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                <img class="experience__img" src="assets/encriptador.jpg">
-                <div class="experience__info">
+                <img class="experience__img" src="assets/encriptador.jpg" data-aos="fade-right" >
+                <div class="experience__info" data-aos="fade-left" >
                     <h2 class="experience__title">Encriptador de texto</h2>
                     <h3 class="experience__text">Challenge Oracle </h3>
                     <div class="experience__description">
@@ -288,8 +289,8 @@
             </div>
 
             <div class="experiencie__box">
-                <img class="experience__img" src="assets\forca2_print.png">
-                <div class="experience__info">
+                <img class="experience__img" src="assets\forca2_print.png" data-aos="fade-left">
+                <div class="experience__info" data-aos="fade-right" >
                     <h2 class="experience__title">Juego creado con HTML, CSS y
                         JavaScript</h2>
                     <h3 class="experience__text">Challenge Oracle </h3>
@@ -332,7 +333,7 @@
                     </form>
                 </div>
             </div>
-        </section> 
+        </section>
 
         <!-- Sección de Footer -->
         <section class="footer">
@@ -340,10 +341,16 @@
                 <p>Desarrollado por Isaac Chaile </p>
                 <p>2022</p>
             </div>
-        </section> 
+        </section>
     </div>
     <!-- Script del documento JavaScript -->
     <script src="validacion.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
 </body>
 
 </html>
