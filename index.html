@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Referencia de la hoja de estilo de Css -->
+
+    <link rel="stylesheet" href="toastr/toastr.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="style.css">
@@ -323,7 +325,7 @@
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con
                         usted lo antes posible. </h3>
-                    <form class="formcontato__form" action="" name="form" onsubmit="return validarFormulario()">
+                    <form class="formcontato__form"  name="form" onsubmit="return validarFormulario()">
                         <input class="formcontato__input" type="text" name="nombre" id="nombre" placeholder="Nombre">
                         <input class="formcontato__input" type="text" name="text" id="email" placeholder="E-mail">
                         <input class="formcontato__input" type="text" name="asunto" id="asunto" placeholder="Asunto">
@@ -344,6 +346,7 @@
         </section>
     </div>
     <!-- Script del documento JavaScript -->
+    <script src="jquery-3.7.1.min.js"></script>
     <script src="validacion.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -351,6 +354,7 @@
             duration: 1200,
         });
     </script>
+     <script src="toastr/toastr.min.js"></script>
 </body>
 
 </html>
